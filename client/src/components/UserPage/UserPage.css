@@ -1,0 +1,37 @@
+#user-page {
+    background-image: url("./../../img/31826.jpg");
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: content-box;
+    display: block;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    margin: 0 auto;
+    font-family: "Krona One";
+}
+
+#user-page-title {
+    color: #FF5F5A;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+    padding: 30px;
+}
+
+.message-div {
+    text-align: center;
+    height: 80px;
+    padding: 5px;
+    background-color: white;
+    opacity: 0.8;
+    width: 25%;
+    left: 37.5%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.message-title {
+    margin-left: 15px;
+}

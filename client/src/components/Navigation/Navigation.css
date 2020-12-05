@@ -1,0 +1,59 @@
+nav {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 10px;
+    position: relative;
+    font-family: "Krona One";
+    background-color: #3C3D3E;
+}
+
+
+#ul-nav {
+    list-style: none;
+    list-style-position: initial;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.control-btn {
+    width: 120px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    border: solid white 1px;
+    font-family: "Krona One";
+    font-size: 10px;
+    font-weight: bold;
+    color: #3C3D3E;
+    display: inline-block;
+    outline: none;
+}
+
+.control-btn:hover {
+    width: 120px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #3C3D3E;
+    font-family: "Krona One";
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    outline: none;
+    border: solid white 1px
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FF5F5A;
+}

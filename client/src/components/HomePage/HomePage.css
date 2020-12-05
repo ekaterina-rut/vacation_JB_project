@@ -1,0 +1,24 @@
+#homePage {
+    background-image: url('./../../../../client/src/img/3504.jpg');
+    height: 1200px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: content-box;
+    text-align: center;
+    font-family: "Krona One";
+    flex-wrap: wrap;
+}
+
+
+#title {
+    color: white;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.subTitle {
+    color: #1F838D;
+    padding: 10px;
+    margin: 0px;
+}

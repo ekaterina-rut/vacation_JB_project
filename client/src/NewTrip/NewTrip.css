@@ -1,0 +1,121 @@
+
+#new-trip-div {
+    position: fixed;
+    top: 10px;
+    left: 37.5%;
+    display: block;
+    bottom: 40px;
+    background-color: white;
+    text-align: center;
+    color: #3C3D3E;
+    width: 30%;
+    height: 100;
+    margin: 5px 10px 5px 10px;
+    box-shadow: 2px 2px 5px 0px #B8ADA7;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    overflow: auto;
+    outline: none;
+    z-index: 1;
+}
+
+#new-trip-form{
+    width: 100%;
+    height: 100%;
+}
+
+
+.new-trip-label {
+    text-align: left;
+    position: relative;
+    left: 5%;
+    font-size: 10px;
+    width: 90%;
+    padding: 10px;
+    color: #FF5F5A;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+.new-trip-input{
+
+    font-size: 14px;
+    text-align: justify;
+    width: 90%;
+    color: #3C3D3E;
+    background-color: transparent;
+    overflow: none;
+    border: none;
+    border-bottom: solid black 1px;
+}
+
+
+#new-trip-text-aria{
+    color: #4D4D4D;
+    font-size: 10px;
+    width: 80%;
+    text-align: left;
+    padding: 15px;
+    text-size-adjust: 10px;
+    text-indent: 25px;
+    line-height: 2;
+    text-align: justify;
+}
+
+
+
+.save-new-trip-btn:hover {
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: transparent;
+    border: solid #FF5F5A 1px;
+    font-family: "Shadows Into Light";
+    font-size: 15px;
+    font-weight: bold;
+    color:  #FF5F5A;;
+    display: inline-block;
+    outline: none;
+}
+
+.save-new-trip-btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #FF5F5A;
+    font-family: "Shadows Into Light";
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    outline: none;
+}
+
+.close-btn {
+    opacity: 0.3;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    background-image: url('./../img/delete-btn-02.png');
+    background-size: cover;
+    border: none;
+
+    display: inline-block;
+    margin: 10px;
+    right: 20px;
+}
+
+.close-btn:hover {
+    opacity: 1;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    background-image: url('./../img/delete-btn-02.png');
+    background-size: cover;
+    display: inline-block;
+    margin: 10px;
+    right: 20px;
+}
+

@@ -1,0 +1,68 @@
+#registration-page {
+    background-image: url('./../../img/2395332.jpg');
+    height: 1200px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: content-box;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+#registration-title {
+    color: #3C3D3E;
+    text-align: left;
+    font-family: "Krona One"; 
+    font-size: 20px;
+}
+
+#registration-form {
+    margin: 100px 200px;
+}
+
+#registration-page p {
+    color: #FF5F5A;
+    font-family: "Krona One";
+    font-size: 12px;
+    margin-bottom: 10px;
+    padding-bottom: none;
+}
+
+#registration-page input {
+    width: 200px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    padding-left: 20px;
+    padding-bottom: 1px;
+    color: #222021;
+    outline: none;
+}
+
+#registration-btn {
+    width: 220px;
+    height: 30px;
+    border-radius: 50px;
+    margin-top: 10px;
+    border: none;
+    background-color: #FF5F5A;
+    font-family: "Krona One";
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    outline: none;
+}
+
+#registration-btn:hover {
+    width: 220px;
+    height: 30px;
+    border-radius: 50px;
+    margin-top: 10px;
+    border: none;
+    background-color: white;
+    font-family: "Krona One";
+    font-size: 10px;
+    font-weight: bold;
+    border: solid #FF5F5A 1px;
+    color: #FF5F5A;
+    outline: none;
+}

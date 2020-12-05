@@ -1,0 +1,16 @@
+#welcomePage {
+    background-size: 100% 100%; 
+    background-image: url("../img/pinaplle.jpg");
+    background-attachment: fixed;
+    background-color: green; 
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    overflow: auto;
+    padding-top: 50px;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: "Krona One";
+}

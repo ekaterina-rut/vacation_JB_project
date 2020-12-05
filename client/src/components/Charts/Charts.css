@@ -1,0 +1,28 @@
+
+#charts-body{
+    background-image: url("../../img/897.jpg"); 
+    background-size: cover;
+    background-clip: content-box;
+    background-attachment: fixed;
+}
+
+
+#charts{   
+    width: 80%;
+    animation: fadeIn 2s;
+    display: block;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Krona One";
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

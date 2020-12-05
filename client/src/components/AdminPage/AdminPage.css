@@ -1,0 +1,38 @@
+#admin-page{
+    height: 1200px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: content-box;
+    text-align: center;
+    font-family: "Krona One";
+    flex-wrap: wrap;
+
+}
+
+#admin-page-title {
+    color: #FF5F5A;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    padding: 30px;
+}
+
+
+.ul-admin-nav {
+    list-style: none;
+    list-style-position: inherit;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+#admin-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid white 2px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    position: sticky;
+}

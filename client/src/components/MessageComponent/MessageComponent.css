@@ -1,0 +1,41 @@
+#message-component {
+    width: 15%;
+    height: 20%;
+    position: fixed;
+    bottom: 10px;
+    left: 100%;
+    color: red;
+    z-index: 1;
+    display: block;
+    background-color: white;
+    box-shadow: 2px 2px 5px 0px #B8ADA7;
+    border-radius: 5px;
+    align-items: center;
+    font-family: "Krona One";
+    padding: 5px;
+    -webkit-animation-name: example;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */    
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 3s;    
+    animation-fill-mode: forwards;
+
+}
+
+
+@keyframes alternate {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes example {
+  100% { 
+    bottom: 10px;
+    left: 81%;
+  }
+  
+}
